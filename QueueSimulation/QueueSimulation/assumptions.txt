@@ -1,0 +1,5 @@
+We assume customers won't cut in line.
+We assume customers won't change which queue they are in once they enter one.
+We assume that customers will show up on time.
+We assume that customers won't take longer than allocated service time.
+We assume that all servers will show up and do their job correctly.

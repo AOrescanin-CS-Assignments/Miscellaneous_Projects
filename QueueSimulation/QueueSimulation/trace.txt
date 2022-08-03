@@ -1,0 +1,479 @@
+t = 0
+cust-id #10 added to the queue 0
+cust-id #95 added to the queue 1
+S0 start serving cust-id #10, service length = 15, service ends at t = 15
+S1 start serving cust-id #95, service length = 3, service ends at t = 3
+S2 is not busy
+
+t = 1
+cust-id #34 added to the queue 2
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #95 until t = 3
+S2 start serving cust-id #34, service length = 2, service ends at t = 3
+
+t = 2
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #95 until t = 3
+S2 serving cust-id #34 until t = 3
+
+t = 3
+cust-id #82 added to the queue 0
+cust-id #36 added to the queue 1
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #36, service length = 4, service ends at t = 7
+S2 is not busy
+
+t = 4
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #36 until t = 7
+S2 is not busy
+
+t = 5
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #36 until t = 7
+S2 is not busy
+
+t = 6
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #36 until t = 7
+S2 is not busy
+
+t = 7
+cust-id #19 added to the queue 2
+cust-id #49 added to the queue 1
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #49, service length = 3, service ends at t = 10
+S2 start serving cust-id #19, service length = 1, service ends at t = 8
+
+t = 8
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #49 until t = 10
+S2 is not busy
+
+t = 9
+cust-id #88 added to the queue 2
+cust-id #80 added to the queue 1
+cust-id #72 added to the queue 2
+cust-id #90 added to the queue 0
+cust-id #50 added to the queue 1
+cust-id #81 added to the queue 2
+S0 serving cust-id #10 until t = 15
+S1 serving cust-id #49 until t = 10
+S2 start serving cust-id #88, service length = 1, service ends at t = 10
+
+t = 10
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #80, service length = 1, service ends at t = 11
+S2 start serving cust-id #72, service length = 2, service ends at t = 12
+
+t = 11
+cust-id #48 added to the queue 1
+cust-id #38 added to the queue 2
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #50, service length = 1, service ends at t = 12
+S2 serving cust-id #72 until t = 12
+
+t = 12
+cust-id #26 added to the queue 1
+cust-id #84 added to the queue 0
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #48, service length = 1, service ends at t = 13
+S2 start serving cust-id #81, service length = 1, service ends at t = 13
+
+t = 13
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #26, service length = 1, service ends at t = 14
+S2 start serving cust-id #38, service length = 2, service ends at t = 15
+
+t = 14
+cust-id #45 added to the queue 1
+S0 serving cust-id #10 until t = 15
+S1 start serving cust-id #45, service length = 3, service ends at t = 17
+S2 serving cust-id #38 until t = 15
+
+t = 15
+cust-id #20 added to the queue 1
+cust-id #96 added to the queue 2
+S0 start serving cust-id #82, service length = 1, service ends at t = 16
+S1 serving cust-id #45 until t = 17
+S2 start serving cust-id #96, service length = 2, service ends at t = 17
+
+t = 16
+S0 start serving cust-id #90, service length = 1, service ends at t = 17
+S1 serving cust-id #45 until t = 17
+S2 serving cust-id #96 until t = 17
+
+t = 17
+S0 start serving cust-id #84, service length = 1, service ends at t = 18
+S1 start serving cust-id #20, service length = 1, service ends at t = 18
+S2 is not busy
+
+t = 18
+S0 is not busy
+S1 is not busy
+S2 is not busy
+
+t = 19
+S0 is not busy
+S1 is not busy
+S2 is not busy
+
+t = 20
+S0 is not busy
+S1 is not busy
+S2 is not busy
+
+t = 21
+S0 is not busy
+S1 is not busy
+S2 is not busy
+
+t = 22
+cust-id #79 added to the queue 0
+cust-id #85 added to the queue 1
+cust-id #28 added to the queue 2
+S0 start serving cust-id #79, service length = 9, service ends at t = 31
+S1 start serving cust-id #85, service length = 3, service ends at t = 25
+S2 start serving cust-id #28, service length = 8, service ends at t = 30
+
+t = 23
+cust-id #57 added to the queue 0
+cust-id #73 added to the queue 1
+S0 serving cust-id #79 until t = 31
+S1 serving cust-id #85 until t = 25
+S2 serving cust-id #28 until t = 30
+
+t = 24
+cust-id #40 added to the queue 2
+cust-id #17 added to the queue 0
+S0 serving cust-id #79 until t = 31
+S1 serving cust-id #85 until t = 25
+S2 serving cust-id #28 until t = 30
+
+t = 25
+S0 serving cust-id #79 until t = 31
+S1 start serving cust-id #73, service length = 4, service ends at t = 29
+S2 serving cust-id #28 until t = 30
+
+t = 26
+cust-id #18 added to the queue 1
+cust-id #83 added to the queue 1
+cust-id #98 added to the queue 2
+S0 serving cust-id #79 until t = 31
+S1 serving cust-id #73 until t = 29
+S2 serving cust-id #28 until t = 30
+
+t = 27
+S0 serving cust-id #79 until t = 31
+S1 serving cust-id #73 until t = 29
+S2 serving cust-id #28 until t = 30
+
+t = 28
+S0 serving cust-id #79 until t = 31
+S1 serving cust-id #73 until t = 29
+S2 serving cust-id #28 until t = 30
+
+t = 29
+S0 serving cust-id #79 until t = 31
+S1 start serving cust-id #18, service length = 1, service ends at t = 30
+S2 serving cust-id #28 until t = 30
+
+t = 30
+S0 serving cust-id #79 until t = 31
+S1 start serving cust-id #83, service length = 6, service ends at t = 36
+S2 start serving cust-id #40, service length = 5, service ends at t = 35
+
+t = 31
+cust-id #87 added to the queue 1
+cust-id #68 added to the queue 1
+cust-id #51 added to the queue 2
+cust-id #37 added to the queue 0
+S0 start serving cust-id #57, service length = 9, service ends at t = 40
+S1 serving cust-id #83 until t = 36
+S2 serving cust-id #40 until t = 35
+
+t = 32
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #83 until t = 36
+S2 serving cust-id #40 until t = 35
+
+t = 33
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #83 until t = 36
+S2 serving cust-id #40 until t = 35
+
+t = 34
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #83 until t = 36
+S2 serving cust-id #40 until t = 35
+
+t = 35
+cust-id #32 added to the queue 0
+cust-id #71 added to the queue 1
+cust-id #74 added to the queue 2
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #83 until t = 36
+S2 start serving cust-id #98, service length = 2, service ends at t = 37
+
+t = 36
+cust-id #76 added to the queue 2
+S0 serving cust-id #57 until t = 40
+S1 start serving cust-id #87, service length = 10, service ends at t = 46
+S2 serving cust-id #98 until t = 37
+
+t = 37
+cust-id #93 added to the queue 1
+cust-id #91 added to the queue 0
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #87 until t = 46
+S2 start serving cust-id #51, service length = 2, service ends at t = 39
+
+t = 38
+cust-id #55 added to the queue 2
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #87 until t = 46
+S2 serving cust-id #51 until t = 39
+
+t = 39
+cust-id #66 added to the queue 1
+S0 serving cust-id #57 until t = 40
+S1 serving cust-id #87 until t = 46
+S2 start serving cust-id #74, service length = 3, service ends at t = 42
+
+t = 40
+S0 start serving cust-id #17, service length = 3, service ends at t = 43
+S1 serving cust-id #87 until t = 46
+S2 serving cust-id #74 until t = 42
+
+t = 41
+cust-id #69 added to the queue 2
+cust-id #41 added to the queue 0
+S0 serving cust-id #17 until t = 43
+S1 serving cust-id #87 until t = 46
+S2 serving cust-id #74 until t = 42
+
+t = 42
+cust-id #13 added to the queue 2
+S0 serving cust-id #17 until t = 43
+S1 serving cust-id #87 until t = 46
+S2 start serving cust-id #76, service length = 1, service ends at t = 43
+
+t = 43
+S0 start serving cust-id #37, service length = 1, service ends at t = 44
+S1 serving cust-id #87 until t = 46
+S2 start serving cust-id #55, service length = 12, service ends at t = 55
+
+t = 44
+cust-id #62 added to the queue 2
+cust-id #44 added to the queue 0
+cust-id #47 added to the queue 2
+S0 start serving cust-id #32, service length = 4, service ends at t = 48
+S1 serving cust-id #87 until t = 46
+S2 serving cust-id #55 until t = 55
+
+t = 45
+cust-id #15 added to the queue 0
+S0 serving cust-id #32 until t = 48
+S1 serving cust-id #87 until t = 46
+S2 serving cust-id #55 until t = 55
+
+t = 46
+S0 serving cust-id #32 until t = 48
+S1 start serving cust-id #68, service length = 3, service ends at t = 49
+S2 serving cust-id #55 until t = 55
+
+t = 47
+S0 serving cust-id #32 until t = 48
+S1 serving cust-id #68 until t = 49
+S2 serving cust-id #55 until t = 55
+
+t = 48
+S0 start serving cust-id #91, service length = 2, service ends at t = 50
+S1 serving cust-id #68 until t = 49
+S2 serving cust-id #55 until t = 55
+
+t = 49
+S0 serving cust-id #91 until t = 50
+S1 start serving cust-id #71, service length = 5, service ends at t = 54
+S2 serving cust-id #55 until t = 55
+
+t = 50
+S0 start serving cust-id #41, service length = 1, service ends at t = 51
+S1 serving cust-id #71 until t = 54
+S2 serving cust-id #55 until t = 55
+
+t = 51
+S0 start serving cust-id #44, service length = 4, service ends at t = 55
+S1 serving cust-id #71 until t = 54
+S2 serving cust-id #55 until t = 55
+
+t = 52
+S0 serving cust-id #44 until t = 55
+S1 serving cust-id #71 until t = 54
+S2 serving cust-id #55 until t = 55
+
+t = 53
+S0 serving cust-id #44 until t = 55
+S1 serving cust-id #71 until t = 54
+S2 serving cust-id #55 until t = 55
+
+t = 54
+S0 serving cust-id #44 until t = 55
+S1 start serving cust-id #93, service length = 6, service ends at t = 60
+S2 serving cust-id #55 until t = 55
+
+t = 55
+S0 start serving cust-id #15, service length = 6, service ends at t = 61
+S1 serving cust-id #93 until t = 60
+S2 start serving cust-id #69, service length = 2, service ends at t = 57
+
+t = 56
+S0 serving cust-id #15 until t = 61
+S1 serving cust-id #93 until t = 60
+S2 serving cust-id #69 until t = 57
+
+t = 57
+S0 serving cust-id #15 until t = 61
+S1 serving cust-id #93 until t = 60
+S2 start serving cust-id #13, service length = 4, service ends at t = 61
+
+t = 58
+S0 serving cust-id #15 until t = 61
+S1 serving cust-id #93 until t = 60
+S2 serving cust-id #13 until t = 61
+
+t = 59
+S0 serving cust-id #15 until t = 61
+S1 serving cust-id #93 until t = 60
+S2 serving cust-id #13 until t = 61
+
+t = 60
+S0 serving cust-id #15 until t = 61
+S1 start serving cust-id #66, service length = 3, service ends at t = 63
+S2 serving cust-id #13 until t = 61
+
+t = 61
+S0 is not busy
+S1 serving cust-id #66 until t = 63
+S2 start serving cust-id #62, service length = 10, service ends at t = 71
+
+t = 62
+S0 is not busy
+S1 serving cust-id #66 until t = 63
+S2 serving cust-id #62 until t = 71
+
+t = 63
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 64
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 65
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 66
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 67
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 68
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 69
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 70
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #62 until t = 71
+
+t = 71
+S0 is not busy
+S1 is not busy
+S2 start serving cust-id #47, service length = 14, service ends at t = 85
+
+t = 72
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 73
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 74
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 75
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 76
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 77
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 78
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 79
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 80
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 81
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 82
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 83
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 84
+S0 is not busy
+S1 is not busy
+S2 serving cust-id #47 until t = 85
+
+t = 85
+S0 is not busy
+S1 is not busy
+S2 is not busy
+
